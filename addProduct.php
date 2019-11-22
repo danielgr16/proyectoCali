@@ -20,39 +20,21 @@
 
   <!-- Start your project here-->
   <?PHP include("nav.html"); ?>
+  </div>
 
-    <div class="card">
-      <div class="card-body">
-        <div class="card-title">
-          Registrar nuevo producto
-        </div>
-        <div class="card-text">
-          <div class="md-form">
-          <input type="text" id="txtbxId" class="form-control">
-          <label for="inputMDEx">Id</label>
-        </div>
-        <div class="md-form">
-          <input type="text" id="txtbxDescripcion" class="form-control">
-          <label for="inputMDEx">Descripcion</label>
-        </div>
-
-        <div class="md-form input-group mb-3">
-          <div class="input-group-prepend">
-            <span class="input-group-text md-addon">Precio $</span>
-          </div>
-          <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-          <div class="input-group-append">
-            <span class="input-group-text md-addon">.00</span>
-          </div>
-        </div>
-        <div class="md-form">
-          <input type="number" id="txtbx" class="form-control">
-          <label for="inputMDEx">Cantidad</label>
-        </div>
-        </div>
+  
+    <div class="container">
+      <div class="form-group">
+        <h6 class=""> Agregar Producto</h6>
+        <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+        <small id="helpId" class="text-muted">Nombre</small>
+        <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+        <small id="helpId" class="text-muted">Tipo</small>
       </div>
-    </div>
+  
 
+
+</div>
 
 
 

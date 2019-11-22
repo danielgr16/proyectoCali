@@ -21,7 +21,31 @@
   <!-- Start your project here-->
   <?PHP include("nav.html"); ?>
 
-  
+  <div class="row">
+      <div class="container">
+          <table class="table table-striped table-inverse table-responsive">
+            <thead class="thead-inverse">
+              <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Tipo de Cliente</th>
+              </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td scope="row"></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td scope="row"></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+          </table>
+      </div>
+  </div>
 
 
 
