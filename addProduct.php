@@ -27,11 +27,12 @@
       <div class="col-6">
         <div class="container bg-white rounded shadow-lg">
           <div class="form-group" style="padding:15px;">
-            <h6>Agregar Productos</h6>
+            <h6>Agregar Producto <i class="fa fa-plus-circle" aria-hidden="true"></i></h6>
             <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
             <small id="helpId" class="text-muted">Nombre</small>
             <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
-            <small id="helpId" class="text-muted">Tipo</small>
+            
+            <button type="submit" class="btn btn-warning btn-block" style="margin-top:20px;">Guardar</button>
           </div>
         </div>
 
@@ -39,14 +40,11 @@
       <div class="col-6">
         <div class="container bg-white rounded shadow-lg">
           <div class="form-group" style="padding:15px;">
-            <h6>Agregar Productos</h6>
-            <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
-            <small id="helpId" class="text-muted">Nombre</small>
-            <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
-            <small id="helpId" class="text-muted">Tipo</small>
+            <h6>Foto del Producto</h6>
+            <img src="" alt="">
+            <input type="file" class="form-control-file" name="" id="" placeholder="" aria-describedby="fileHelpId">
           </div>
         </div>
-
       </div>
     </div>
   </div>
