@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,22 +17,40 @@
   <!-- Your custom styles (optional) -->
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <!-- Start your project here-->
   <?PHP include("nav.html"); ?>
   </div>
   <div class="container">
     <div class="row">
-      <div class="container bg-white rounded shadow-sm">
-        <div class="form-group">
-          <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
-          <small id="helpId" class="text-muted">Nombre</small>
-          <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
-          <small id="helpId" class="text-muted">Tipo</small>
+      <div class="col-6">
+        <div class="container bg-white rounded shadow-lg">
+          <div class="form-group" style="padding:15px;">
+            <h6>Agregar Productos</h6>
+            <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+            <small id="helpId" class="text-muted">Nombre</small>
+            <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+            <small id="helpId" class="text-muted">Tipo</small>
+          </div>
         </div>
+
+      </div>
+      <div class="col-6">
+        <div class="container bg-white rounded shadow-lg">
+          <div class="form-group" style="padding:15px;">
+            <h6>Agregar Productos</h6>
+            <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+            <small id="helpId" class="text-muted">Nombre</small>
+            <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+            <small id="helpId" class="text-muted">Tipo</small>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
   <!-- End your project here-->
 </body>
+
 </html>
