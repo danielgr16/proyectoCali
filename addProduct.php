@@ -17,29 +17,21 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
   <!-- Start your project here-->
   <?PHP include("nav.html"); ?>
   </div>
-
-  
-    <div class="container">
-      <div class="form-group">
-        <h6 class=""> Agregar Producto</h6>
-        <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
-        <small id="helpId" class="text-muted">Nombre</small>
-        <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
-        <small id="helpId" class="text-muted">Tipo</small>
+  <div class="container">
+    <div class="row">
+      <div class="container bg-white rounded shadow-sm">
+        <div class="form-group">
+          <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+          <small id="helpId" class="text-muted">Nombre</small>
+          <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+          <small id="helpId" class="text-muted">Tipo</small>
+        </div>
       </div>
-  
-
-
-</div>
-
-
-
+    </div>
+  </div>
   <!-- End your project here-->
-
-
 </body>
 </html>
