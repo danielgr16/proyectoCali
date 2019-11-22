@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Cali Resourses - inicio</title>
+  <title>Ver Venta</title>
   <!-- MDB icon -->
   <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
   <!-- Font Awesome -->
@@ -27,6 +27,6 @@
 
   <!-- End your project here-->
 
-   <!-- NOTA: NO SOBRESCRIBIR LIBRERIAS-->
+
 </body>
 </html>

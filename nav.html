@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,13 +17,13 @@
   <!-- Your custom styles (optional) -->
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
   <!-- Start your project here-->
   <nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color">
     <a class="navbar-brand" href="index.php">
-    <img src="img/logonav.png" height="40" class="d-inline-block align-top"
-      alt="Inicio"></a>
+      <img src="img/logonav.png" height="40" class="d-inline-block align-top" alt="Inicio"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
       aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -30,23 +31,61 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Inicio
-            <span class="sr-only">(current)</span>
-          </a>
+         <div class="btn-group">
+           <button class="btn btn-secondary" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false">
+                 inicio
+           </button>
+          
+         </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="addproduct.php">Productos</a>
+          <div class="btn-group">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Productos
+            </button>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="triggerId">
+              <a class="dropdown-item" href="addProduct.php">Agregar</a>
+              <a class="dropdown-item disabled" href="#">Disabled action</a>
+              <h6 class="dropdown-header">Section header</h6>
+              <a class="dropdown-item" href="#">Action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">After divider action</a>
+            </div>
+          </div>
+
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Clientes</a>
+          <div class="btn-group">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Clientes
+            </button>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="triggerId">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item disabled" href="#">Disabled action</a>
+              <h6 class="dropdown-header">Section header</h6>
+              <a class="dropdown-item" href="#">Action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">After divider action</a>
+            </div>
+          </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">Ventas
-          </a>
-          <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-            <a class="dropdown-item" href="#">Registrar venta</a>
-            <a class="dropdown-item" href="#">Ver historial de ventas</a>
+          <div class="btn-group">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                  ventas
+            </button>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="triggerId">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item disabled" href="#">Disabled action</a>
+              <h6 class="dropdown-header">Section header</h6>
+              <a class="dropdown-item" href="#">Action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">After divider action</a>
+            </div>
           </div>
         </li>
       </ul>
@@ -56,8 +95,7 @@
             aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-user"></i>
           </a>
-          <div class="dropdown-menu dropdown-menu-right dropdown-default"
-            aria-labelledby="navbarDropdownMenuLink-333">
+          <div class="dropdown-menu dropdown-menu-right dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
             <a class="dropdown-item" href="#">Action</a>
             <a class="dropdown-item" href="#">Another action</a>
             <a class="dropdown-item" href="#">Something else here</a>
@@ -80,4 +118,5 @@
   <script type="text/javascript"></script>
 
 </body>
+
 </html>
