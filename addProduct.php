@@ -24,7 +24,7 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-6">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
         <div class="container bg-white rounded shadow-lg">
           <div class="form-group" style="padding:15px;">
             <h6>Agregar Producto <i class="fa fa-plus-circle" aria-hidden="true"></i></h6>
@@ -37,10 +37,10 @@
         </div>
 
       </div>
-      <div class="col-6">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
         <div class="container bg-white rounded shadow-lg">
           <div class="form-group" style="padding:15px;">
-            <h6>Foto del Producto</h6>
+            <h6>Foto del Producto <i class="fa fa-camera" aria-hidden="true"></i></h6>
             <img src="" alt="">
             <input type="file" class="form-control-file" name="" id="" placeholder="" aria-describedby="fileHelpId">
           </div>
