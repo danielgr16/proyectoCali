@@ -52,7 +52,12 @@
         </div>
       </div>
       <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+<<<<<<< HEAD
+        <div class="card wow fadeInLefMX
+t" data-wow-delay="0.3s">
+=======
         <div class="card wow fadeInRight card-nw" data-wow-delay="0.3s">
+>>>>>>> 53632da7f6c7462a34a33a013fc9ca7951ff166e
             <div class="card-body">
         <div class="md-form">
             <h6>Foto del Producto <i class="fa fa-camera" aria-hidden="true"></i></h6>
