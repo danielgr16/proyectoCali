@@ -1,5 +1,30 @@
-/* Required for full background image */
+body {
+  background-color: rgb(238, 238, 238);
+}
+.nav-element-nw {
+  box-shadow: none !important;
+  background-color: #45526e !important;
+  color: aliceblue;
+}
+.nav-element-nw:hover {
+  color: rgba(255,255,255,0.75);
+}
+.md-form {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
 
+.contLogin {
+  background-color: rgba(255, 255, 255, .75) !important;
+  border-radius: 10px;
+  margin: auto 90px;
+}
+.carousel-caption {
+  height: 20% !important;
+  top: 25%;
+}
+
+/* Required for full background image */
 html,
 body,
 header,
@@ -20,9 +45,9 @@ header,
   background-color: #f8bbd0 !important;
 }
 
-.navbar:not(.top-nav-collapse) {
+/* .navbar:not(.top-nav-collapse) {
   background: transparent !important;
-}
+} */
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
