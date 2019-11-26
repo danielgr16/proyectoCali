@@ -36,7 +36,8 @@
         </div>
       </div>
       <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-        <div class="card wow fadeInLeft" data-wow-delay="0.3s">
+        <div class="card wow fadeInLefMX
+t" data-wow-delay="0.3s">
             <div class="card-body">
         <div class="md-form">
             <h6>Foto del Producto <i class="fa fa-camera" aria-hidden="true"></i></h6>
