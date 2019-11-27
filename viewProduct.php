@@ -18,8 +18,8 @@
               Todos los productos
             </h4>
 
-            <table id="dtHorizontalExample" class="table table-striped table-bordered table-sm hide" cellspacing="0"
-  width="100%" >
+            <table id="dtBasicExample" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
+  
             <thead>
               <tr>
                 <th scope="col">Id</th>
