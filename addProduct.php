@@ -6,6 +6,7 @@
 <body>
   <!-- Start your project here-->
   <?PHP include("nav.html"); ?>
+  <div class="back-color"></div>
   <div class="container cont-principal">
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-6 col-xl-7">
@@ -69,6 +70,12 @@
                 </div>
               </div>
               <div class="row">
+                <div class="col-3">
+                  <div class="md-form">
+                    <input type="number" id="form3" class="form-control">
+                    <label for="form3" class="active">Cantidad</label>
+                  </div>
+                </div>
                 <div class="col-6">
                   <div class="md-form input-group mb-3">
                     <div class="input-group-prepend">
@@ -78,12 +85,6 @@
                     <div class="input-group-append">
                       <span class="input-group-text md-addon">.00</span>
                     </div>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="md-form txt-50">
-                    <input type="number" id="form3" class="form-control">
-                    <label for="form3" class="active">Cantidad</label>
                   </div>
                 </div>
               </div>

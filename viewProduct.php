@@ -8,7 +8,6 @@
 
   <div class="back-color"></div>
   <div class="container cont-principal">
-  <a class="btn-floating btn-lg btn-default fab"><i class="fas fa-plus fab-ico"></i></a>
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-6 col-xl"></div>
       <div class="col-12">
@@ -145,101 +144,6 @@
               </tr>
             </tbody>
           </table>
-            <!-- <table class="table table-hover">
-              <thead>
-                <tr>
-                  <th scope="col">Id</th>
-                  <th scope="col">Descripcion</th>
-                  <th scope="col">Marca</th>
-                  <th scope="col">Modelo</th>
-                  <th scope="col">Categoria</th>
-                  <th scope="col">Precio</th>
-                  <th scope="col">U/M</th>
-                  <th scope="col">Cantidad</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">0001</th>
-                  <td>Audirculares Inalambricos</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <th scope="row">0002</th>
-                  <td>Disco duro 500GB</td>
-                  <td>Samsung</td>
-                  <td>SM34902</td>
-                  <td>900</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <th scope="row">0003</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <th scope="row">0004</th>
-                  <td></td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <th scope="row">0005</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <th scope="row">0006</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <th scope="row">0007</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <th scope="row">0008</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <th scope="row">0009</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-
   <!-- End your project here-->
   <?PHP include("scripts.html"); ?>
  
