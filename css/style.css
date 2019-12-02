@@ -109,6 +109,10 @@ tr td {
 .modal-prod-nw {
   width: 700px !important;
 }
+.bodyIndex {
+  background-image: url('../img/backgroundimg.jpg');
+  background-size: cover;
+}
 
 /* Required for full background image */
 html,

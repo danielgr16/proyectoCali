@@ -90,12 +90,12 @@
               </div>
               <div class="row mt-3 mb-0">
                 <div class="col offset-5">
-                  <a href="">
+                  <a href="viewProduct.php">
                     <button type="button" class="btn red darken-4 text-white" style="width: 100%;" data-dismiss="modal">CANCELAR</button>
                   </a>
                 </div>
                 <div class="col">
-                  <a href="editProduct.php">
+                  <a href="index.php">
                     <button type="submit" class="btn mdb-color lighten-1 text-white" style="width: 100%;">Guardar</button>
                   </a>
                 </div>
