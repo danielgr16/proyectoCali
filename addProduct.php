@@ -6,7 +6,7 @@
 <body>
   <!-- Start your project here-->
   <?PHP include("nav.html"); ?>
-  <div class="back-color"></div>
+  <div class="back-color mt-5"></div>
   <div class="container cont-principal">
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-6 col-xl-7">
@@ -111,6 +111,7 @@
       </div>
     </div>
   </div>
+  
   <?PHP include("scripts.html"); ?>
   <!-- End your project here-->
 </body>

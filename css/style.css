@@ -37,11 +37,7 @@ nav {
 .card-nw {
   border-radius: 8px;
 }
-.contLogin {
-  background-color: rgba(255, 255, 255, .75) !important;
-  border-radius: 10px;
-  margin: auto 90px;
-}
+
 .carousel-caption {
   height: 20% !important;
   top: 25%;
@@ -55,13 +51,34 @@ nav {
 }
 .fab {
   border-radius: 100%;
+  border: none;
   box-shadow: 0px 3px 5px rgba(0,0,0,0.25);
+  
+  /* bottom: 15px; */
   position: fixed;
-  bottom: 15px;
-  right: 15px;
+  bottom: 17px;
+  right: 17px;
+  top: auto;
+  
+  padding: 15px 14px 13px 14px;
+  background-color: #A77383;
+  z-index: 2000;
+  transition: ease 0.5s;
+  border: none !important;
 }
+  .fab:hover {
+    background-color: rgb(192, 132, 150);
+    box-shadow: 0px 3px 12px 1px rgba(0,0,0,0.25);
+    transition: ease 0.5s;
+    border: none !important;
+  }
+  .fab:active {
+    background-color: rgb(177, 121, 137);
+    border: none !important;
+  }
+  
 .fav-ico {
-
+  /* margin: 20px 20px; */
 }
 .card-body {
   padding: 1.5rem;
@@ -77,6 +94,7 @@ header,
 .view {
   height: 100%;
 }
+
 
 @media (max-width: 740px) {
   html,
@@ -114,4 +132,72 @@ header,
   .navbar:not(.top-nav-collapse) {
     background: #45526e !important;
   }
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  .fab {
+    border-radius: 100%;
+    border: none;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.25);
+    
+    /* bottom: 15px; */
+    position: fixed;
+    bottom: 17px;
+    right: 17px;
+    top: auto;
+    
+    padding: 15px 14px 13px 14px;
+    background-color: #A77383;
+    z-index: 2000;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .fab {
+    border-radius: 100%;
+    border: none;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.25);
+    
+    /* bottom: 15px; */
+    position: fixed;
+    bottom: 17px;
+    right: 17px;
+    top: auto;
+    
+    padding: 15px 14px 13px 14px;
+    background-color: #A77383;
+    z-index: 2000;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .fab {
+    border-radius: 100%;
+    border: none;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.25);
+    
+    /* bottom: 15px; */
+    position: fixed;
+    bottom: 17px;
+    right: 17px;
+    top: auto;
+    
+    padding: 15px 14px 13px 14px;
+    background-color: #A77383;
+    z-index: 2000;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .fab {
+    position: absolute;
+    right: 60px;
+    top: 260px;
+    bottom: auto;
+  } 
 }
