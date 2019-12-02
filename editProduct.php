@@ -16,7 +16,7 @@
               <div class="row">
                 <div class="col">
                   <h4 class="titulo-card">
-                  Agregar producto
+                  Modificar producto
                 </h4>
                 </div>
               </div>
