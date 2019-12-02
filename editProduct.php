@@ -12,7 +12,7 @@
       <div class="col-sm-12 col-md-12 col-lg-6 col-xl-7">
         <div class="card wow fadeInLeft card-nw" data-wow-delay="0.3s">
           <div class="card-body">
-            <div class="container">
+            <div class="container p-0">
               <div class="row">
                 <div class="col">
                   <h4 class="titulo-card">
@@ -23,7 +23,7 @@
               <div class="row">
                 <div class="col-4">
                   <div class="md-form txt-id">
-                    <input type="number" id="form3" class="form-control">
+                    <input type="number" id="form3" value="001" class="form-control">
                     <label for="form3" class="active">Id</label>
                   </div>
                 </div>
@@ -31,7 +31,7 @@
               <div class="row">
                 <div class="col">
                   <div class="md-form">
-                    <input type="text" id="form3" class="form-control">
+                    <input type="text" id="form3" value="Audifonos Inalambricos" class="form-control">
                     <label for="form3" class="active">Descripción</label>
                   </div>
                 </div>
@@ -40,7 +40,7 @@
                 <div class="col-6">
                   <div class="dropdown">
                     <button class="btn btn-dropdown dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Categoria
+                      Electronicos
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                       <a class="dropdown-item" href="#">Auriculares</a>
@@ -58,13 +58,13 @@
               <div class="row">
                 <div class="col-6">
                   <div class="md-form">
-                    <input type="text" id="form3" class="form-control">
+                    <input type="text" id="form3" value="Skullcandy" class="form-control">
                     <label for="form3" class="active">Marca</label>
                   </div>
                 </div>
                 <div class="col-6">
                   <div class="md-form">
-                    <input type="text" id="form3" class="form-control">
+                    <input type="text" id="form3" value="SK4433" class="form-control">
                     <label for="form3" class="active">Modelo</label>
                   </div>
                 </div>
@@ -72,7 +72,7 @@
               <div class="row">
                 <div class="col-3">
                   <div class="md-form">
-                    <input type="number" id="form3" class="form-control">
+                    <input type="number" id="form3" value="35" class="form-control">
                     <label for="form3" class="active">Cantidad</label>
                   </div>
                 </div>
@@ -81,17 +81,23 @@
                     <div class="input-group-prepend">
                       <span class="input-group-text md-addon">Precio $</span>
                     </div>
-                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                    <input type="text" class="form-control" value="100" aria-label="Amount (to the nearest dollar)">
                     <div class="input-group-append">
                       <span class="input-group-text md-addon">.00</span>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-8"></div>
-                <div class="col-4">
-                  <a href="index.php"><button type="submit" class="btn mdb-color lighten-1 text-white" style="margin-top:20px; width: 100%;">Guardar</button></a>
+              <div class="row mt-3 mb-0">
+                <div class="col offset-5">
+                  <a href="">
+                    <button type="button" class="btn red darken-4 text-white" style="width: 100%;" data-dismiss="modal">CANCELAR</button>
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="editProduct.php">
+                    <button type="submit" class="btn mdb-color lighten-1 text-white" style="width: 100%;">Guardar</button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -103,26 +109,11 @@
             <div class="card-body">
         <div class="md-form">
             <h6>Foto del Producto <i class="fa fa-camera" aria-hidden="true"></i></h6>
-            <img src="" alt="">
-            <input type="file" class="form-control-file" name="" id="" placeholder="" aria-describedby="fileHelpId">
+            <img src="img/audifonos.jpg" style="width: 40%" alt="" class="mt-3">
+            <input type="file" class="form-control-file mt-3" name="" id="" placeholder="" aria-describedby="fileHelpId">
           </div>
         </div>
         </div>
-      </div>
-    </div>
-
-    <!-- TOAST -->
-    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-      <div class="toast-header">
-        <img src="..." class="rounded mr-2" alt="...">
-        <strong class="mr-auto">Bootstrap</strong>
-        <small>11 mins ago</small>
-        <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="toast-body">
-        Hello, world! This is a toast message.
       </div>
     </div>
   </div>

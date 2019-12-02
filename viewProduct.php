@@ -7,9 +7,9 @@
   <?PHP include("nav.html"); ?>
 
   <div class="back-color mt-5"></div>
-  <div class="">
+  <div class="animated fadeIn delay-1s">
     <a href="addProduct.php">
-      <button class="fab shadow-md"><i class="material-icons fab-ico">add</i></button>
+      <button class="fab shadow-md "><i class="material-icons fab-ico">add</i></button>
     </a>
   </div>
   <div class="container cont-principal">
@@ -46,6 +46,7 @@
                         <th scope="col">Precio</th>
                         <th scope="col">U/M</th>
                         <th scope="col">Cantidad</th>
+                        <th scope="col">Action</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -58,6 +59,11 @@
                         <td>100</td>
                         <td>dlls</td>
                         <td>35</td>
+                        <td>
+                          <button type="button" class="btn-sm btn-list-nw" data-toggle="modal" data-target="#staticBackdrop">
+                            <i class="material-icons">pageview</i>
+                          </button>
+                        </td>
                       </tr>
                       <tr>
                         <td>002</td>
@@ -68,6 +74,11 @@
                         <td>900</td>
                         <td>pesos</td>
                         <td>50</td>
+                        <td>
+                          <button type="button" class="btn-sm btn-list-nw" data-toggle="modal" data-target="#staticBackdrop">
+                            <i class="material-icons">pageview</i>
+                          </button>
+                        </td>
                       </tr>
                       <tr>
                         <td>003</td>
@@ -78,6 +89,11 @@
                         <td>1600</td>
                         <td>pesos</td>
                         <td>24</td>
+                        <td>
+                          <button type="button" class="btn-sm btn-list-nw" data-toggle="modal" data-target="#staticBackdrop">
+                            <i class="material-icons">pageview</i>
+                          </button>
+                        </td>
                       </tr>
                       <tr>
                         <td>004</td>
@@ -88,6 +104,11 @@
                         <td>12,000</td>
                         <td>pesos</td>
                         <td>3</td>
+                        <td>
+                          <button type="button" class="btn-sm btn-list-nw" data-toggle="modal" data-target="#staticBackdrop">
+                            <i class="material-icons">pageview</i>
+                          </button>
+                        </td>
                       </tr>
                       <tr>
                         <td>005</td>
@@ -98,6 +119,11 @@
                         <td>38,000</td>
                         <td>pesos</td>
                         <td>4</td>
+                        <td>
+                          <button type="button" class="btn-sm btn-list-nw" data-toggle="modal" data-target="#staticBackdrop">
+                            <i class="material-icons">pageview</i>
+                          </button>
+                        </td>
                       </tr>
                       <tr>
                         <td>006</td>
@@ -108,6 +134,11 @@
                         <td>19</td>
                         <td>dlls</td>
                         <td>6</td>
+                        <td>
+                          <button type="button" class="btn-sm btn-list-nw" data-toggle="modal" data-target="#staticBackdrop">
+                            <i class="material-icons">pageview</i>
+                          </button>
+                        </td>
                       </tr>
                       <tr>
                         <td>007</td>
@@ -118,6 +149,11 @@
                         <td>400</td>
                         <td>dlls</td>
                         <td>10</td>
+                        <td>
+                          <button type="button" class="btn-sm btn-list-nw" data-toggle="modal" data-target="#staticBackdrop">
+                            <i class="material-icons">pageview</i>
+                          </button>
+                        </td>
                       </tr>
                       <tr>
                         <td>008</td>
@@ -128,6 +164,11 @@
                         <td>300</td>
                         <td>dlls</td>
                         <td>58</td>
+                        <td>
+                          <button type="button" class="btn-sm btn-list-nw" data-toggle="modal" data-target="#staticBackdrop">
+                            <i class="material-icons">pageview</i>
+                          </button>
+                        </td>
                       </tr>
                       <tr>
                         <td>009</td>
@@ -138,6 +179,11 @@
                         <td>100</td>
                         <td>dlls</td>
                         <td>19</td>
+                        <td>
+                          <button type="button" class="btn-sm btn-list-nw" data-toggle="modal" data-target="#staticBackdrop">
+                            <i class="material-icons">pageview</i>
+                          </button>
+                        </td>
                       </tr>
                       <tr>
                         <td>010</td>
@@ -148,6 +194,11 @@
                         <td>150</td>
                         <td>dlls</td>
                         <td>40</td>
+                        <td>
+                          <button type="button" class="btn-sm btn-list-nw" data-toggle="modal" data-target="#staticBackdrop">
+                            <i class="material-icons">pageview</i>
+                          </button>
+                        </td>
                       </tr>
                       <tr>
                         <td>011</td>
@@ -158,6 +209,11 @@
                         <td>75</td>
                         <td>dlls</td>
                         <td>20</td>
+                        <td>
+                          <button type="button" class="btn-sm btn-list-nw" data-toggle="modal" data-target="#staticBackdrop">
+                            <i class="material-icons">pageview</i>
+                          </button>
+                        </td>
                       </tr>
                     </tbody>
                   </table>
@@ -167,7 +223,71 @@
           </div>
         </div>
       </div>
-    </div>        
+    </div> 
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-prod-nw" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title font-weight-bold" id="staticBackdropLabel">Detalles de producto</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container p-0">
+              <div class="row">
+                <div class="col">
+                  <h4 class="mb-3"><strong>Id:</strong> 001</h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <h6 class="font-weight-bold">Descripcion:</h6>
+                  <span>Audifonos Inalambricos</span>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col">
+                  <h6 class="font-weight-bold">Marca:</h6>
+                  <span>Skullcandy</span></div>
+                <div class="col">
+                  <h6 class="font-weight-bold">Modelo:</h6>
+                  <span>SK4433</span>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col">
+                  <h6 class="font-weight-bold">Categoria:</h6>
+                  <span>Electronicos</span>
+                </div>
+                <div class="col">
+                  <h6 class="font-weight-bold">Precio:</h6>
+                  <span>$100 Dlls</span>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col">
+                  <h6 class="font-weight-bold">Cantidad:</h6>
+                  <span>35</span>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col">
+                  <h6 class="font-weight-bold">Imagen del producto:</h6>
+                  <img src="img/audifonos.jpg" alt="" class="b-2" style="width: 30%">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn red darken-4 text-white" data-dismiss="modal">cerrar</button>
+            <a href="editProduct.php"><button type="button" class="btn mdb-color lighten-1 text-white" href="editProduct.php">editar</button></a>
+          </div>
+        </div>
+      </div>
+    </div>       
   </div>
 
 
