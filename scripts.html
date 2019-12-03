@@ -12,12 +12,22 @@
   </script>
   <script type="text/javascript">
     $(document).ready(function () {
+      $("#vista2").hide();
+      $("#timbre").hide();
 $("#dtHorizontalVerticalExample").DataTable({
 "scrollX": true,
 "scrollY": 200,
 });
 $(".dataTables_length").addClass('bs-select');
+
 });
-  
+$( "#iniciarVenta" ).click(function() {
+  $("#timbre").show();
+});
+$( "#target" ).click(function() {
+  $("#vista1").hide();
+  $("#vista2").show();
+});
+
   </script>
 
